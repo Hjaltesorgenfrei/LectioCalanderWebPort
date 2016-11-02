@@ -9,7 +9,7 @@ function cURLlectio($url){
 
     $regexpattern = '((\btitle[=]\")(.*(?<!Aflyst\!)\n)?(.*(?<!Aflyst\!)\n)?((\d{1,2})\/(\d{1,2})-(\d{4})\s(\d{2}):(\d{2})\s\btil\s(\d{2}):(\d{2}))\n(\bHold:.*?\n.*?\n.*?)?\n)';
     preg_match_all($regexpattern, $output, $regexresults);
-    echo '<pre>';print_r($regexresults);echo '</pre>';
     return $regexresults;
 }
 ?>
+
