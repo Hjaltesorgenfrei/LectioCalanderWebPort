@@ -246,3 +246,4 @@ ModelManifest.xml
 
 #dependcies
 /vendor/
+/LectioCalanderWebPort/client_secrets.json

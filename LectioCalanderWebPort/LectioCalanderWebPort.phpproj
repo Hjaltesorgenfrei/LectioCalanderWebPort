@@ -19,5 +19,6 @@
   <ItemGroup>
     <Compile Include="cURLlectio.php" />
     <Compile Include="index.php" />
+    <Compile Include="oauth2callback.php" />
   </ItemGroup>
 </Project>
