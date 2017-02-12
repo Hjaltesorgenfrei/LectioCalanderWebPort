@@ -17,8 +17,13 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="checkevents.php" />
     <Compile Include="cURLlectio.php" />
-    <Compile Include="index.php" />
+    <Compile Include="googleevent.php" />
     <Compile Include="oauth2callback.php" />
+    <Compile Include="insertevent.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
   </ItemGroup>
 </Project>
